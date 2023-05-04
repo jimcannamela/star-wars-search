@@ -1,0 +1,73 @@
+#searchForm {
+  padding-top: 1em; 
+  text-align: center;
+}
+
+#searchForm input,
+#searchForm select {
+  font-size: 24px;
+  padding: 0.5em;
+  background: whitesmoke;
+  border: none;
+  border-radius: 0.5em;
+}
+
+#searchForm #query {
+  width: 50%;
+  border-right: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#searchForm select {
+  border-radius: 0;
+}
+
+#searchForm [type=submit] {
+  padding: 0.5em 1em;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.resource {
+  text-align: center;
+}
+
+.resource h2 {
+  border-bottom: 1px solid black;
+}
+
+.resource ul {
+  list-style: none;
+}
+
+.resource ul li {
+  display: inline-block;
+}
+
+.resource.people h2::before {
+  content: "🧍 ";
+}
+
+.resource.starships h2::before {
+  content: "🚢 ";
+}
+
+.resource.vehicles h2::before {
+  content: "🚗 ";
+}
+
+.resource.species h2::before {
+  content: "🧝 ";
+}
+
+.resource.planets h2::before {
+  content: "🪐 ";
+}
+
+.poster {
+  height: 200px;
+  margin: 0 20px;
+  border: 10px solid black;
+}
+
